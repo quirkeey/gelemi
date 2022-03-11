@@ -17,3 +17,8 @@ header, footer {
     width: auto;
     height: auto;
 }
+/*make logo 250 by 100px on illustrator first*/
+.logo {
+    width: 200px ;
+    height: 100px;
+}
