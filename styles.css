@@ -4,21 +4,12 @@ html {
 body{
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-h1 {
-    color: rgb(176, 23, 176);
-    font-family: 'Abril Fatface', cursive;  
-}
-.purpletext {
-    color: rgb(176, 23, 176);
-    font-family: 'Abril Fatface', cursive;
-}
 header, footer {
     background-color: rgb(227, 243, 248);
     width: auto;
     height: auto;
 }
-/*make logo 250 by 100px on illustrator first*/
 .logo {
-    width: 200px ;
-    height: 100px;
+width: 150px;
+height: 100px;
 }
