@@ -5,32 +5,49 @@ html, body {
     background-color: #fff;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-header, footer {
-    background-color: #FB9AAC;
+header {
+    width: 100%;
+    height: 100px;
+}
+p.logo {
+color: #fdb7c2;
+font-family: 'Pacifico', cursive;
+font-size: 52px;
+display: inline-block;
+}
+nav {
+display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.welcome-text {
+    width: 50%;
+    height: 100vh;
+    background-color: #fdb7c2;
+    color:#fff;
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+.instagram, .facebook, .twitter {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    background-color: #fdb7c2;
     width: auto;
     height: auto;
 }
-p.logo {
-color: #fff;
-font-family: 'Pacifico', cursive;
-font-size: 44px;
-display: inline-block;
+input.email {
+    display: block;
 }
 .logo2 {
     color: #fff;
     font-family: 'Pacifico', cursive;
     font-size: 26px;
-}
-nav {
-display: inline-block;
-vertical-align: top;
-}
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/*footer*/
-input.email {
-    display: block;
 }
