@@ -11,7 +11,7 @@ header {
 }
 p.logo {
 color: #fdb7c2;
-font-family: 'Pacifico', cursive;
+font-family: 'Anton', sans-serif;
 font-size: 52px;
 display: inline-block;
 }
@@ -27,7 +27,7 @@ a {
     background-color: #fdb7c2;
     color:#fff;
     font-size: 30px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 .instagram, .facebook, .twitter {
     border: 1px solid #fff;
@@ -48,6 +48,6 @@ input.email {
 }
 .logo2 {
     color: #fff;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Anton', sans-serif;
     font-size: 26px;
 }
