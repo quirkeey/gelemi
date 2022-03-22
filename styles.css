@@ -28,6 +28,7 @@ display: inline-block;
     color:#fff;
     font-size: 30px;
     font-family: 'Verdana', sans-serif;
+    text-align: center;
 }
 .instagram, .facebook, .twitter {
     border: 1px solid #fff;
