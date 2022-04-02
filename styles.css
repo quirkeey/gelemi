@@ -44,6 +44,41 @@ footer {
     width: auto;
     height: auto;
 }
+.social-buttons {
+    /*display: inline-flex;*/
+    text-align: center;
+    margin: 10px;
+  }
+.button-facebook,
+.button-twitter,
+.button-instagram,
+.button-email,
+.button-whatsapp {
+  margin: 10px;
+}
+.fa-facebook {
+    color: #4267b2;
+  }
+  .fa-twitter {
+    color: #1da1f2;
+  }
+  .fa-instagram {
+    background: #d6240f;
+    background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,
+     #d6249f 60%,#285aeb 90%);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .fa-envelope-square {
+    color: #00a4ef;
+  }
+  .fa-whatsapp {
+    color: #25d366;
+  }
+  i:hover {
+    opacity: 0.5;
+  }
 input.email {
     display: block;
 }
