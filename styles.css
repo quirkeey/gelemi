@@ -43,6 +43,8 @@ footer {
     background-color: #fdb7c2;
     width: auto;
     height: auto;
+    text-align: center;
+    padding-top: 2rem;
 }
 .social-buttons {
     /*display: inline-flex;*/
@@ -81,6 +83,26 @@ footer {
   }
 input.email {
     display: block;
+    margin: 1rem auto;
+    width: 20rem;
+    height: 2.3rem;
+    border-radius: 0.6rem;
+    border: 1px solid #fdb7c2;
+}
+.submit-button {
+  background-color: #fff;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.6rem;
+  border: 1px solid #fdb7c2;
+  margin: 1rem 0;
+  font-size: large;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.submit-button:hover {
+  background-color: #fdb7c2;
+  border: 1px solid #fff;
 }
 .logo2 {
     color: #fff;
