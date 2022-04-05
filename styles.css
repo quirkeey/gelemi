@@ -30,13 +30,6 @@ display: inline-block;
     font-family: 'Verdana', sans-serif;
     text-align: center;
 }
-.instagram, .facebook, .twitter {
-    border: 1px solid #fff;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-}
 
 /*footer*/
 footer {
@@ -71,7 +64,6 @@ input.email {
   border: 1px solid #fff;
 }
 .social-buttons {
-  /*display: inline-flex;*/
   text-align: center;
   margin: 2rem 0;
 }
