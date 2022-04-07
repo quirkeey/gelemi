@@ -29,6 +29,23 @@ display: inline-block;
     font-size: 30px;
     font-family: 'Verdana', sans-serif;
     text-align: center;
+    padding: 12rem 1rem;
+}
+.shop-button {
+  background-color: #fff;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 0.6rem;
+  border: 1px solid #fdb7c2;
+  margin: 0.3rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-family: 'open sans', sans-serif;
+}
+.shop-button:hover {
+  background-color: #fdb7c2;
+  border: 1px solid #000;
 }
 
 /*footer*/
@@ -37,7 +54,7 @@ footer {
     width: auto;
     height: auto;
     text-align: center;
-    padding-top: 2rem;
+    padding: 2rem;
 }
 input.email {
     display: block;
@@ -61,7 +78,7 @@ input.email {
 }
 .submit-button:hover {
   background-color: #fdb7c2;
-  border: 1px solid #fff;
+  border: 1px solid #000;
 }
 .social-buttons {
   text-align: center;
@@ -82,9 +99,8 @@ margin: 10px;
 }
 .fa-instagram {
   background: #d6240f;
-  background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,
-   #d6249f 60%,#285aeb 90%);
-   background-clip: text;
+  background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
