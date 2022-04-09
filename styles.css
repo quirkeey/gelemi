@@ -18,7 +18,7 @@ font-family: 'Anton', sans-serif;
 font-size: 52px;
 display: inline-block;
 }
-nav {
+nav div {
 display: inline-block;
 }
 .welcome-text {
