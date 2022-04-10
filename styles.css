@@ -61,14 +61,14 @@ input.email {
     margin: 1rem auto;
     width: 20rem;
     height: 2.3rem;
-    border-radius: 0.6rem;
+    border-radius: 0.3rem;
     border: 1px solid #fdb7c2;
 }
 .submit-button {
   background-color: #fff;
   width: 6rem;
   height: 2rem;
-  border-radius: 0.6rem;
+  border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
   margin: 0.3rem 0;
   font-size: large;
