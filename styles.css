@@ -89,10 +89,10 @@ input.email {
 .button-instagram,
 .button-email,
 .button-whatsapp {
-margin: 10px;
+margin: 1rem;
 }
 .fa-facebook {
-  color: #4267b2;
+  color: #3b5998;
 }
 .fa-twitter {
   color: #1da1f2;
@@ -104,7 +104,7 @@ margin: 10px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fa-envelope-square {
+.fa-envelope {
   color: #00a4ef;
 }
 .fa-whatsapp {
