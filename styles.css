@@ -56,6 +56,10 @@ footer {
     text-align: center;
     padding: 2rem;
 }
+.footer-top {
+  display: flex;
+  justify-content: space-evenly;
+}
 input.email {
     display: block;
     margin: 1rem auto;
@@ -80,16 +84,10 @@ input.email {
   background-color: #fdb7c2;
   border: 1px solid #000;
 }
-.social-buttons {
-  text-align: center;
-  margin: 2rem 0;
-}
 .button-facebook,
 .button-twitter,
-.button-instagram,
-.button-email,
-.button-whatsapp {
-margin: 1rem;
+.button-instagram {
+  margin: 2rem 1rem 2rem 0;
 }
 .fa-facebook {
   color: #3b5998;
@@ -115,6 +113,11 @@ i:hover {
 }
 .links a {
   display: block;
+}
+.button-email, .button-whatsapp {
+  display: block;
+  margin: 1rem 0;
+  text-align: justify;
 }
 .logo2 {
     color: #fff;
