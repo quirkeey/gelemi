@@ -53,8 +53,6 @@ footer {
     background-color: #fdb7c2;
     width: auto;
     height: auto;
-    text-align: center;
-    padding: 2rem;
 }
 .footer-top {
   display: flex;
@@ -65,8 +63,10 @@ input.email {
     margin: 1rem auto;
     width: 20rem;
     height: 2.3rem;
-    border-radius: 0.3rem;
-    border: 1px solid #fdb7c2;
+    border-style: none;
+    border-bottom: 1px solid #000;
+    background-color: #fdb7c2;
+    color: #000;
 }
 .submit-button {
   background-color: #fff;
@@ -113,6 +113,7 @@ i:hover {
 }
 .links a {
   display: block;
+  text-align: justify;
 }
 .button-email, .button-whatsapp {
   display: block;
@@ -123,4 +124,16 @@ i:hover {
     color: #fff;
     font-family: 'Anton', sans-serif;
     font-size: 26px;
+}
+select {
+  width: 12rem;
+  height: 2rem;
+  border-style: none;
+  border-bottom: 1px solid #000;
+  background-color: #fdb7c2;
+  color: #000;
+  margin-top: 1rem;
+}
+.copy {
+  margin-top: 3rem;
 }
