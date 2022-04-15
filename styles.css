@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html, body {
-    background-color: #fff;
+    background-color:;
     font-family: 'Open Sans', sans-serif;
 }
 a {
@@ -51,8 +51,10 @@ display: inline-block;
 /*footer*/
 footer {
     background-color: #fdb7c2;
-    width: auto;
+    width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
 .footer-top {
   display: flex;
@@ -114,6 +116,7 @@ i:hover {
 .links a {
   display: block;
   text-align: justify;
+  margin-top: 0.5rem;
 }
 .button-email, .button-whatsapp {
   display: block;
