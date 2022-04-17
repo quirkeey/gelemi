@@ -70,9 +70,9 @@ input.email {
     background-color: #fdb7c2;
     color: #000;
 }
-.submit-button {
+.subscribe-button {
   background-color: #fff;
-  width: 6rem;
+  width: 7rem;
   height: 2rem;
   border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
@@ -82,7 +82,7 @@ input.email {
   font-variant: small-caps;
   font-family: 'open sans', sans-serif;
 }
-.submit-button:hover {
+.subscribe-button:hover {
   background-color: #fdb7c2;
   border: 1px solid #000;
 }
@@ -138,5 +138,5 @@ select {
   margin-top: 1rem;
 }
 .copy {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
