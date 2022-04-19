@@ -57,7 +57,7 @@ footer {
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding-top: 1rem;
 }
 .footer-top {
   display: flex;
@@ -142,4 +142,8 @@ select {
 }
 .copy {
   margin-top: 5rem;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
 }
