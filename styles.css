@@ -147,3 +147,7 @@ li {
   list-style-type: none;
   display: inline-block;
 }
+li img {
+  width: 28px;
+  height: 28px;
+}
