@@ -67,7 +67,6 @@ footer {
 .footer-bottom {
   display: flex;
   justify-content: space-around;
-  padding: 3rem 0;
 }
 input.email {
     display: block;
@@ -82,12 +81,13 @@ input.email {
 .subscribe-button {
   background-color: #fff;
   width: 7rem;
-  height: 2rem;
+  height: 3rem;
   border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
   margin: 0.3rem 0;
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
+  font-stretch: expanded;
   font-variant: small-caps;
   font-family: 'open sans', sans-serif;
 }
@@ -138,12 +138,15 @@ i:hover {
     font-size: 26px;
 }
 select {
-  width: 18rem;
+  width: 5rem;
   height: 2rem;
   border-style: none;
   border-bottom: 1px solid #000;
-  background-color: #fff;
+  background-color: #fdb7c2;
   color: #000;
+}
+ul {
+  margin-left: -2rem;
 }
 li {
   list-style-type: none;
