@@ -34,6 +34,23 @@ display: inline-block;
     text-align: center;
     padding: 12rem 1rem;
 }
+.welcome-image {
+  width: 50%;
+  height: 100vh;
+}
+.first-image {
+  width: 100%;
+  height: 100vh;
+}
+.bestseller-gele {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bestseller1, .bestseller2, .bestseller3 {
+  width: 350px;
+  height: 300px;
+  border: 1px solid black;
+}
 .shop-button {
   background-color: #fff;
   width: 15rem;
@@ -49,6 +66,9 @@ display: inline-block;
 .shop-button:hover {
   background-color: #fdb7c2;
   border: 1px solid #000;
+}
+.hero-page {
+  display: flex;
 }
 
 /*footer*/
