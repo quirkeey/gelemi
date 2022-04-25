@@ -24,6 +24,9 @@ display: inline-block;
 .header-nav div {
 display: inline-block;
 }
+.fa-shopping-cart {
+  color: #fdb7c2;
+}
 .hero-page {
   display: flex;
 }
