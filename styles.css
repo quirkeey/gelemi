@@ -24,7 +24,7 @@ display: inline-block;
 .header-nav div {
 display: inline-block;
 }
-.fa-shopping-cart {
+.fa-shopping-cart, .fa-user, .fa-search {
   color: #fdb7c2;
 }
 .hero-page {
@@ -38,7 +38,7 @@ display: inline-block;
     font-size: 30px;
     font-family: 'Verdana', sans-serif;
     text-align: center;
-    padding: 12rem 1rem;
+    padding: 15rem 1rem;
 }
 .shop-button {
   background-color: #fff;
