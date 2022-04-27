@@ -13,7 +13,7 @@ a {
 }
 header {
     width: 100%;
-    height: 100px;
+    height:auto;
 }
 .logo {
 color: #fdb7c2;
@@ -27,8 +27,12 @@ display: inline-block;
 .fa-shopping-cart, .fa-user, .fa-search {
   color: #fdb7c2;
 }
+main section {
+  margin-bottom: 3rem;
+} 
 .hero-page {
   display: flex;
+  margin-top: 1rem;
 }
 .welcome-text {
     width: 50%;
@@ -64,16 +68,39 @@ display: inline-block;
   width: 100%;
   height: 100vh;
 }
+.bestseller-title {
+    font-size: 30px;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+}
 .bestseller-gele {
   display: flex;
   justify-content: space-evenly;
 }
 .bestseller1, .bestseller2, .bestseller3 {
   width: 350px;
-  height: 300px;
+  height: 500px;
   border: 1px solid black;
 }
-
+.sample-product {
+  display: flex;
+}
+.sample-product-image {
+  width: 50%;
+  height: 100vh;
+  border: 1px solid black;
+}
+.sample-product-text {
+    width: 50%;
+    height: 100vh;
+    background-color: #fdb7c2;
+    color:#fff;
+    font-size: 30px;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    padding: 15rem 1rem;
+    border: 1px solid black;
+}
 /*footer*/
 footer {
     width: 100%;
