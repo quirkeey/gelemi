@@ -116,7 +116,7 @@ footer {
 }
 input.email {
     display: block;
-    margin: 1rem auto;
+    margin: 2rem auto;
     width: 20rem;
     height: 2.3rem;
     border-style: none;
@@ -130,7 +130,7 @@ input.email {
   height: 3rem;
   border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
-  margin: 0.3rem 0;
+  margin: 1rem 0;
   font-size: 20px;
   font-weight: bold;
   font-stretch: expanded;
@@ -146,11 +146,12 @@ select {
   height: 2rem;
   border-style: none;
   border-bottom: 1px solid #000;
-  background-color: #fdb7c2;
+  background-color: #fff;
   color: #000;
+  margin-top: 1rem;
 }
 .payments {
-  margin-top: 5rem;
+  margin-top: 7rem;
   text-align: center;
 }
 ul {
@@ -167,12 +168,12 @@ li img {
 .links a {
   display: block;
   text-align: justify;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 .button-facebook,
 .button-twitter,
 .button-instagram {
-  margin: 2rem 1rem 2rem 0;
+  margin: 5rem 1rem 2rem 0;
 }
 .fa-facebook {
   color: #3b5998;
@@ -198,7 +199,7 @@ i:hover {
 }
 .button-email, .button-whatsapp {
   display: block;
-  margin: 1rem 0;
+  margin: 2rem 0;
   text-align: justify;
 }
 .footer-bottom {
