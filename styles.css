@@ -19,10 +19,6 @@ header {
 color: #fdb7c2;
 font-family: 'Anton', sans-serif;
 font-size: 52px;
-display: inline-block;
-}
-.header-nav div {
-display: inline-block;
 }
 .fa-shopping-cart, .fa-user, .fa-search {
   color: #fdb7c2;
