@@ -207,4 +207,27 @@ i:hover {
     font-family: 'Anton', sans-serif;
     font-size: 26px;
 }
-
+/*contact*/
+.contact-heading {
+  color: #fdb7c2;
+}
+.form {
+  display: block;
+  text-align: center;
+}
+form {
+ display: inline-block;
+ margin: 5rem auto;
+ text-align: left;
+}
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 0.1rem;
+  color: grey;
+}
+form input {
+  margin-bottom: 1.5rem;
+  width: 25rem;
+  height: 2rem;
+}
