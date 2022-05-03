@@ -208,6 +208,10 @@ i:hover {
     font-size: 26px;
 }
 /*contact*/
+.contact-page-top {
+  text-align: center;
+
+}
 .contact-heading {
   color: #fdb7c2;
 }
@@ -217,17 +221,38 @@ i:hover {
 }
 form {
  display: inline-block;
- margin: 5rem auto;
+ margin: 2.5rem auto;
  text-align: left;
 }
 form label {
   display: block;
   font-size: 18px;
   margin-bottom: 0.1rem;
-  color: grey;
 }
-form input {
+form input  {
   margin-bottom: 1.5rem;
   width: 25rem;
   height: 2rem;
+}
+textarea {
+  display: block;
+  width: 25rem;
+  height: 10rem;
+  margin-bottom: 1.5rem;
+}
+.send-button {
+  background-color: #fdb7c2;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #fdb7c2;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-variant: small-caps;
+  font-family: 'open sans', sans-serif;
+}
+.send-button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
 }
