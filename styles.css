@@ -210,10 +210,12 @@ i:hover {
 /*contact*/
 .contact-page-top {
   text-align: center;
-
+  width: 25rem;
+  margin: 0 auto;
 }
 .contact-heading {
   color: #fdb7c2;
+  font-variant: small-caps;
 }
 .form {
   display: block;
@@ -256,3 +258,4 @@ textarea {
   background-color: #fff;
   border: 1px solid #000;
 }
+/*login page*/
