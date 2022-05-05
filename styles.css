@@ -217,11 +217,11 @@ i:hover {
   color: #fdb7c2;
   font-variant: small-caps;
 }
-.form {
+.contact-form-page {
   display: block;
   text-align: center;
 }
-form {
+.contact-form {
  display: inline-block;
  margin: 2.5rem auto;
  text-align: left;
