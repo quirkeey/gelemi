@@ -242,9 +242,12 @@ textarea {
   height: 10rem;
   margin-bottom: 1.5rem;
 }
+.send-button-tab {
+  text-align: center;
+}
 .send-button {
   background-color: #fdb7c2;
-  width: 5rem;
+  width: 6rem;
   height: 2.5rem;
   border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
@@ -259,3 +262,36 @@ textarea {
   border: 1px solid #000;
 }
 /*login page*/
+.login-heading {
+  color: #fdb7c2;
+  font-variant: small-caps;
+  text-align: center;
+}
+.login-form-page {
+  display: block;
+  text-align: center;
+}
+.login-form {
+  display: inline-block;
+  margin: 2.5rem auto;
+  text-align: left;
+ }
+.login-button-tab {
+  text-align: center;
+}
+.login-button {
+  background-color: #fdb7c2;
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #fdb7c2;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-variant: small-caps;
+  font-family: 'open sans', sans-serif;
+}
+.login-button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+}
