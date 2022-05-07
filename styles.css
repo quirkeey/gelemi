@@ -3,7 +3,6 @@
 }
 html, body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -36,7 +35,6 @@ main section {
     background-color: #fdb7c2;
     color:#fff;
     font-size: 30px;
-    font-family: 'Verdana', sans-serif;
     text-align: center;
     padding: 15rem 1rem;
 }
@@ -50,7 +48,6 @@ main section {
   font-size: 1.8rem;
   font-weight: bold;
   font-variant: small-caps;
-  font-family: 'open sans', sans-serif;
 }
 .shop-button:hover {
   background-color: #fdb7c2;
@@ -66,7 +63,6 @@ main section {
 }
 .bestseller-title {
     font-size: 30px;
-    font-family: 'Verdana', sans-serif;
     text-align: center;
 }
 .bestseller-gele {
@@ -92,7 +88,6 @@ main section {
     background-color: #fdb7c2;
     color:#fff;
     font-size: 30px;
-    font-family: 'Verdana', sans-serif;
     text-align: center;
     padding: 15rem 1rem;
     border: 1px solid black;
@@ -131,7 +126,6 @@ input.email {
   font-weight: bold;
   font-stretch: expanded;
   font-variant: small-caps;
-  font-family: 'open sans', sans-serif;
 }
 .subscribe-button:hover {
   background-color: #fdb7c2;
@@ -255,7 +249,6 @@ textarea {
   font-weight: bold;
   font-stretch: expanded;
   font-variant: small-caps;
-  font-family: 'open sans', sans-serif;
 }
 .send-button:hover {
   background-color: #fff;
@@ -289,9 +282,20 @@ textarea {
   font-weight: bold;
   font-stretch: expanded;
   font-variant: small-caps;
-  font-family: 'open sans', sans-serif;
 }
 .login-button:hover {
   background-color: #fff;
   border: 1px solid #000;
+}
+.create {
+  font-weight: bold;
+  font-stretch: expanded;
+  font-variant: small-caps;
+  font-size: 24px;
+}
+/*create-account page, rearrange account icon*/
+.create-account-heading {
+  color: #fdb7c2;
+  font-variant: small-caps;
+  text-align: center;
 }
