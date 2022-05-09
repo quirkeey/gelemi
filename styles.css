@@ -17,7 +17,7 @@ header {
 .logo {
 color: #fdb7c2;
 font-family: 'Anton', sans-serif;
-font-size: 52px;
+font-size: 50px;
 }
 .fa-shopping-cart, .fa-user, .fa-search {
   color: #fdb7c2;
@@ -33,10 +33,17 @@ main section {
     width: 50%;
     height: 100vh;
     background-color: #fdb7c2;
-    color:#fff;
-    font-size: 30px;
     text-align: center;
-    padding: 15rem 1rem;
+    padding: 10rem 1rem;
+}
+.welcome-text1 {
+  font-size: 45px;
+  color: #fff;
+}
+.welcome-text2 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 5rem;
 }
 .shop-button {
   background-color: #fff;
@@ -44,7 +51,7 @@ main section {
   height: 3rem;
   border-radius: 2rem;
   border: 1px solid #fdb7c2;
-  margin: 0.3rem 0;
+  margin: 0.5rem 0;
   font-size: 1.8rem;
   font-weight: bold;
   font-variant: small-caps;
@@ -117,7 +124,7 @@ input.email {
 }
 .subscribe-button {
   background-color: #fff;
-  width: 7rem;
+  width: 20rem;
   height: 3rem;
   border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
@@ -199,7 +206,7 @@ i:hover {
 .logo2 {
     color: #fdb7c2;
     font-family: 'Anton', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
 }
 /*contact*/
 .contact-page-top {
@@ -241,7 +248,7 @@ textarea {
 }
 .send-button {
   background-color: #fdb7c2;
-  width: 6rem;
+  width: 25rem;
   height: 2.5rem;
   border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
@@ -274,7 +281,7 @@ textarea {
 }
 .login-button {
   background-color: #fdb7c2;
-  width: 6rem;
+  width: 25rem;
   height: 2.5rem;
   border-radius: 0.3rem;
   border: 1px solid #fdb7c2;
@@ -288,14 +295,29 @@ textarea {
   border: 1px solid #000;
 }
 .create {
-  font-weight: bold;
-  font-stretch: expanded;
-  font-variant: small-caps;
   font-size: 24px;
 }
-/*create-account page, rearrange account icon*/
+/*create-account page extend login button width*/
 .create-account-heading {
   color: #fdb7c2;
   font-variant: small-caps;
   text-align: center;
+}
+.create-button-tab {
+  text-align: center;
+}
+.create-button {
+  background-color: #fdb7c2;
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #fdb7c2;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-variant: small-caps;
+}
+.create-button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
 }
