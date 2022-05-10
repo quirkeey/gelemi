@@ -236,6 +236,8 @@ form input  {
   margin-bottom: 1.5rem;
   width: 25rem;
   height: 2rem;
+  border-style: none;
+  border-bottom: 1px solid #000;
 }
 textarea {
   display: block;
@@ -256,6 +258,7 @@ textarea {
   font-weight: bold;
   font-stretch: expanded;
   font-variant: small-caps;
+  margin: 3rem 0;
 }
 .send-button:hover {
   background-color: #fff;
@@ -275,7 +278,7 @@ textarea {
   display: inline-block;
   margin: 2.5rem auto;
   text-align: left;
- }
+}
 .login-button-tab {
   text-align: center;
 }
@@ -289,6 +292,7 @@ textarea {
   font-weight: bold;
   font-stretch: expanded;
   font-variant: small-caps;
+  margin: 3rem 0 0;
 }
 .login-button:hover {
   background-color: #fff;
@@ -303,6 +307,15 @@ textarea {
   font-variant: small-caps;
   text-align: center;
 }
+.create-form-page {
+  display: block;
+  text-align: center;
+ }
+ .create-form {
+    display: inline-block;
+    margin: 2.5rem auto;
+    text-align: left;
+ }
 .create-button-tab {
   text-align: center;
 }
@@ -316,6 +329,7 @@ textarea {
   font-weight: bold;
   font-stretch: expanded;
   font-variant: small-caps;
+  margin: 3rem 0;
 }
 .create-button:hover {
   background-color: #fff;
