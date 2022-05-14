@@ -335,8 +335,20 @@ textarea {
   border: 1px solid #000;
 }
 /*shop page*/
+.shop-page {
+  display: flex;
+}
 .gele1, .gele2, .gele3, .gele4, .gele5, .gele6, .gele7, .gele8, .gele9 {
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
   border: 1px solid black;
+}
+.selection-tab {
+  width: 500px;
+  height: 400px;
+}
+.gele-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
