@@ -335,19 +335,14 @@ textarea {
   border: 1px solid #000;
 }
 /*shop page*/
-.shop-page {
-  display: flex;
-  flex-basis: ;
+.shop-page-top {
+
 }
 .gele1, .gele2, .gele3, .gele4, .gele5, .gele6, .gele7, .gele8, .gele9 {
   width: 300px;
-  height: 350px;
-  border: 1px solid black;
-  margin-bottom: 2rem;
-}
-.selection-tab {
-  width: 700px;
   height: 400px;
+  border: 1px solid black;
+  margin: 2rem 1rem 10rem;
 }
 .gele-gallery {
   display: flex;
