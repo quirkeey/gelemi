@@ -92,10 +92,23 @@ main section {
 .sample-product-text {
     width: 50%;
     height: 100vh;
-    background-color: #fdb7c2;
-    color:#fff;
     text-align: center;
     border: 1px solid black;
+}
+.product-button {
+  background-color: #fdb7c2;
+  width: 12.5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid #fdb7c2;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-variant: small-caps;
+}
+.product-button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
 }
 /*footer*/
 footer {
