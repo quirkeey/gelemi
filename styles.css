@@ -93,7 +93,10 @@ main section {
     width: 50%;
     height: 100vh;
     text-align: center;
-    border: 1px solid black;
+}
+.sample-product-text p {
+  font-size: 20px;
+  padding: 1rem 2rem;
 }
 .product-button {
   background-color: #fdb7c2;
