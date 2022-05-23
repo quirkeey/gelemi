@@ -10,6 +10,10 @@ html, body {
 a {
     text-decoration: none;
 }
+h1 {
+  color: #fdb7c2;
+  text-align: center;
+}
 header {
     width: 100%;
     height:auto;
@@ -227,10 +231,6 @@ i:hover {
   width: 25rem;
   margin: 0 auto;
 }
-.contact-heading {
-  color: #fdb7c2;
-  font-variant: small-caps;
-}
 .contact-form-page {
   display: block;
   text-align: center;
@@ -278,11 +278,6 @@ textarea {
   border: 1px solid #000;
 }
 /*login page*/
-.login-heading {
-  color: #fdb7c2;
-  font-variant: small-caps;
-  text-align: center;
-}
 .login-form-page {
   display: block;
   text-align: center;
@@ -315,11 +310,6 @@ textarea {
   font-size: 24px;
 }
 /*create-account page extend login button width*/
-.create-account-heading {
-  color: #fdb7c2;
-  font-variant: small-caps;
-  text-align: center;
-}
 .create-form-page {
   display: block;
   text-align: center;
