@@ -18,10 +18,17 @@ header {
     width: 100%;
     height:auto;
 }
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
 .logo {
 color: #fdb7c2;
 font-family: 'Anton', sans-serif;
 font-size: 50px;
+}
+.header-nav-links, .header-nav-icons {
+  margin-top: 2rem;
 }
 .fa-shopping-cart, .fa-user, .fa-search {
   color: #fdb7c2;
