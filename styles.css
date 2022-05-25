@@ -30,6 +30,13 @@ font-size: 50px;
 .header-nav-links, .header-nav-icons {
   margin-top: 2rem;
 }
+.header-nav-links a {
+  margin: 0 2.5rem;
+  font-size: 22px;
+}
+.header-nav-icons a {
+  margin: 0 1rem;
+}
 .fa-shopping-cart, .fa-user, .fa-search {
   color: #fdb7c2;
 }
@@ -194,7 +201,7 @@ li img {
 .button-facebook,
 .button-twitter,
 .button-instagram {
-  margin: 5rem 1rem 2rem 0;
+  margin: 3rem 1rem 1rem 0;
 }
 .fa-facebook {
   color: #3b5998;
