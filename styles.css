@@ -32,10 +32,10 @@ font-size: 50px;
 }
 .header-nav-links a {
   margin: 0 2.5rem;
-  font-size: 22px;
+  font-size: 20px;
 }
 .header-nav-icons a {
-  margin: 0 1rem;
+  margin: 0 0.3rem;
 }
 .fa-shopping-cart, .fa-user, .fa-search {
   color: #fdb7c2;
