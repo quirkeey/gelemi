@@ -111,6 +111,7 @@ main section {
     width: 50%;
     height: 100vh;
     text-align: center;
+    border: 1px solid black;
 }
 .sample-product-text p {
   font-size: 20px;
