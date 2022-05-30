@@ -179,7 +179,7 @@ select {
   color: #000;
 }
 .payments {
-  margin-top: 7rem;
+  margin-top: 5rem;
   text-align: center;
 }
 ul {
@@ -353,8 +353,6 @@ textarea {
   border: 1px solid #000;
 }
 /*shop page*/
-.shop-page {
-}
 .gele1, .gele2, .gele3, .gele4, .gele5, .gele6, .gele7, .gele8, .gele9 {
   width: 400px;
   height: 500px;
