@@ -330,6 +330,9 @@ textarea {
   font-size: 24px;
 }
 /*create-account page extend login button width*/
+.create-page {
+  margin: 5rem 0;
+}
 .create-form-page {
   display: block;
   text-align: center;
