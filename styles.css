@@ -95,7 +95,7 @@ main section {
   display: flex;
   justify-content: space-evenly;
 }
-.bestseller1, .bestseller2, .bestseller3 {
+.bestseller {
   width: 400px;
   height: 500px;
   border: 1px solid black;
