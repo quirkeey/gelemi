@@ -94,6 +94,7 @@ main section {
 .bestseller-gele {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .bestseller {
   width: 400px;
@@ -368,7 +369,6 @@ textarea {
   height: 500px;
   border: 1px solid black;
   margin: 5rem 0 0;
-  justify-content: space-evenly;
 }
 .gele-gallery {
   display: flex;
