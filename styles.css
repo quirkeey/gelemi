@@ -87,19 +87,21 @@ main section {
   width: 100%;
   height: 100vh;
 }
+.bestsellers {
+  margin: 5rem 0;
+}
 .bestseller-title {
     font-size: 30px;
     text-align: center;
 }
+.bestseller {
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+}
 .bestseller-gele {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.bestseller {
-  width: 400px;
-  height: 500px;
-  border: 1px solid black;
 }
 .sample-product {
   display: flex;
