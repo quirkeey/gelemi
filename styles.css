@@ -93,6 +93,7 @@ main section {
 .bestseller-title {
     font-size: 30px;
     text-align: center;
+    text-shadow: 2px 2px 2px #3b5998;
 }
 .bestseller {
   width: 350px;
